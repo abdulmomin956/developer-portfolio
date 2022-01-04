@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-text{
     color: orange;
 }
@@ -36,4 +39,21 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-box{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    width: 40%;
+    padding-left: 25px;
+}
+.orange-border{
+    border-left: 7px solid orange;
+}
+.blue-border{
+    border-image: linear-gradient(blue, gray) 5px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
