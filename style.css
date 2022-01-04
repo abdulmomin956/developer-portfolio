@@ -45,15 +45,22 @@ h2{
     margin-left: 5%;
     width: 40%;
     padding-left: 25px;
+    padding-bottom: 100px;
 }
 .orange-border{
     border-left: 7px solid orange;
 }
 .blue-border{
-    border-image: linear-gradient(blue, gray) 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(90, 171, 238)) 8;
+    border-image-slice: 1;
 }
 .experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left 250px;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
